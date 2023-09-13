@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth scroll;
+    font-family: sans-serif,'IBM Plex Sans';
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background: url('../images/bg-main-desktop.png') center/cover ;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+/* Main wrapper */
+ .main-wrapper {
+    width: 80%;
+    height: inherit;
+    /* background: red; */
+ }
+/* Logo Container */ 
+ .logo-container {
+    width: 100%;
+    height: 100px;
+    /* background: green; */
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+ }
+ 
+ #pattern {
+    width: 19.5rem;
+    height: 29.25rem;
+    position: absolute;
+    right:0;
+    bottom: 22rem;
+ }
+ #pattern img{
+    width: 100%;
+    height: 100%;
+ }
+ /* End of logo container */
+
+/* Hero Container */
+
+ .hero-container {
+     width: 80%;
+     height: 100px;
+     margin-top: 9rem;
+     /* background: green; */
+     /* margin-bottom: 50px; */
+     
+ }
+
+
+
+#hero-text h1{
+    font-size: 88px;
+    margin-bottom: 30px;
+    color: #191826;
+}
+.hero-container p{
+    font-size: 20px;
+    line-height: 34px;
+    color: #191826;
+    font-weight: lighter;
+}
+/* End of hero container */
+
+/* Features container */
+.features-container{
+    width: 100%;
+    height: 37.5rem;
+    background-color: #191826;
+    margin-top: 50px;
+    position: relative;
+    margin-top: 50%;
+    border-radius: 20px;
+}
+.pattern{
+    width: 300px;
+    height: 450px;
+    position: relative;
+    left: 25rem;
+}
+.pattern img{
+    width: 100%;
+    height: 100%;
+}
+
+/* setting EQ feature */
+.feature{
+    height: 700px;
+    position: absolute;
+    bottom: 7rem;
+    left: 9rem;
+
+}
+.feature img{
+    height: 100%;
+}
+/* premium-EQ */
+.premium-feature{
+    width: 27.875rem;
+    height: 39.0625rem;
+    display:flex;
+    justify-self: center;
+    align-items: center;
+    background: #FA7453;
+    position: absolute;
+    left: 38.5rem;
+    top: 7rem;
+    border-radius: 0.75rem;
+}
+.premium-content{
+    width: 80%;
+    height: 90%;
+    margin: 50% auto;
+    /* background: rebeccapurple; */
+}
+.premium-content h2{
+    color: #FCFAF9;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.25rem;
+    margin: 1.5rem 0;
+}
+.premium-content p{
+    color: #FCFAF9;
+    line-height: 2.125rem;
+    margin-bottom: 1.7rem;
+}
+.price-per-month {
+    width: 10rem;
+    display: flex;
+    /* background: red ; */
+    margin-bottom: 2rem;
+}
+.price-per-month span {
+    color: #FCFAF9;
+    /* background: green ; */
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+.price-per-month p{
+    padding-top: 1.3rem;
+    padding-left: 0.4rem;
+    
+}
+
+.premium-content button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.75rem;
+    width: 100%;
+    padding: 1.25rem;
+    margin-bottom: 1.2rem;
+}
+#ios-btn{
+    background: #191826;
+    color: #FCFAF9;
+    font-size: 1.25rem;
+    border: none;
+}
+#ios-btn:hover{
+    background: #66E2DC;
+    animation: ease-in-out;
+    transition: .5s;
+}
+#ios-btn img{
+    width: 1.06769rem;
+    height: 1.1rem;
+    margin-right: .5rem;
+}
+#android-btn{
+    background: #FCFAF9;
+    color: #191826;
+    font-size: 1.25rem;
+    border: none ;
+}
+#android-btn:hover{
+    background: #FFB964;
+    animation: ease-in-out;
+    transition: .5s;
+}
+#android-btn img{
+    width: 1.04388rem;
+    height: 1.25rem;
+    margin-right: .5rem;
+}
+/* End of Feature container*/
+
+/* Footer */
+.footer{
+    width: 100%;
+    height: 12rem;
+    margin-top: 18rem;
+    display: flex;
+    justify-content: space-between;
+}
+.left-footer{
+    width: 60%;
+    height: 200px;
+    /* background: yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+.left-footer p{
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color: #191826;
+    font-weight: lighter;
+}
+.right-footer {
+    width: 15%;
+    height: 200px;
+}
+.right-footer i{
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    float: right;
+    color: #191826;
+}
+.right-footer i:hover{
+    color: #FA7453;
+}
+/* End of footer */
+
+/* Media queries */
+/* Tablet media query */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+   .main-wrapper{
+    width: 90%;
+   }
+   #logo{
+    margin-top: 3rem;
+   }
+   #pattern {
+       width: 15rem;
+       height: 23rem;
+       top: -1rem;
+    }
+    #pattern img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-container{
+     width: 90%;
+     margin-top: 5rem;
+ 
+    }
+    #hero-text{
+        width: 80%;
+    }
+    #hero-text h1{
+        font-size: 4.2rem;
+        margin-bottom: 30px;
+    }
+    .hero-container p{
+        font-size: 18px;
+    }
+     .premium-feature{
+        left: 16rem;
+     }
+     .features-container{
+        margin-top: 40rem;
+     }
+     .pattern{
+        width: 280px;
+        height: 400px;
+        left: 16rem;
+        bottom: 1.5rem;
+     }
+     .feature{
+        height: 600px;
+        position: absolute;
+        left: 4rem;
+        bottom: 10rem;;
+     }
+     .premium-feature{
+        width: 24.9375rem;
+        height: 34.125rem;
+        top: 9.5rem;
+        left: 16rem;
+     }
+     .premium-content h2,p,button{
+        margin: 0;
+        line-height: 1rem;
+        padding: 10px;
+     }
+     .price-per-month{
+        margin-bottom: 0.5rem;
+     }
+     .footer{
+        margin-bottom: 10%;
+     }
+     .left-footer{
+        /* background: red; */
+        display: block;
+     }
+     .left-footer p{
+        padding-bottom: 5rem;
+     }
+     .left-footer img{
+        margin-bottom: 1rem;
+     }
+     .right-footer{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background: blue; */
+        text-align: center;
+     }
+     .right-footer i{
+        padding-top: 4.3em;
+     }
+  }
+  
+/* End of tablet media query */
+
+/* Mobile media query */
+@media (min-width: 360px) and (max-width: 760px) {
+    
+    .main-wrapper{
+        width: 90%;
+    }
+    
+    #pattern{
+        display: none ;
+    }
+    .hero-container{
+        width: auto;
+        height: auto;
+        display: flex ;
+        flex-direction: column;
+        align-items: center ;
+        justify-content: center ;
+        margin-top: 0;
+        margin-bottom: 15rem;
+        /* background: red; */
+    }
+    #hero{
+        width: 100%;
+    }
+    #hero-text h1{
+        font-size: 2rem;
+    }
+    .hero-container p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    .pattern{
+        width: 180px;
+        height: 300px;
+        left: 0;
+    }
+    .features-container{
+        height: 30rem;
+    }
+    .feature{
+        height: 500px;
+        position: relative;
+        left: 2.5rem;
+        bottom: 25rem;
+    }
+    .premium-feature{
+        display: none ;
+    }
+}
+/* End of Mobile media query */
