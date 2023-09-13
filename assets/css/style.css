@@ -368,9 +368,7 @@ body {
     .pattern{
         left: 4rem;
     }
-    .features-container{
-        margin-top: ;
-    }
+    
     .feature{
         width: 209px;
         height: 440px;
@@ -432,6 +430,6 @@ body {
     }
 
 
-
+}
     
 /* End of Mobile media query */
