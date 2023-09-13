@@ -331,14 +331,20 @@ body {
 @media (min-width: 360px) and (max-width: 760px) {
     
     .main-wrapper{
-        width: 90%;
+        width: 100%;
     }
-    
+    .logo-container{
+        margin-bottom: 30px;
+    }
+
+    #logo{
+        margin-left: 1.5rem;
+    }
     #pattern{
         display: none ;
     }
     .hero-container{
-        width: auto;
+        width: 90%;
         height: auto;
         display: flex ;
         flex-direction: column;
@@ -346,26 +352,23 @@ body {
         justify-content: center ;
         margin-top: 0;
         margin-bottom: 15rem;
+        margin-left: 1.5rem;
         /* background: red; */
     }
     #hero{
         width: 100%;
     }
     #hero-text h1{
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .hero-container p{
         font-size: 1rem;
         line-height: 1.5rem;
     }
     .pattern{
-        width: 180px;
-        height: 300px;
         left: 0;
     }
-    .features-container{
-        height: 30rem;
-    }
+
     .feature{
         height: 500px;
         position: relative;
