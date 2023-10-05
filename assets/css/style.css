@@ -233,7 +233,7 @@ body {
 .right-footer i{
     font-size: 1.3rem;
     margin-left: 1.5rem;
-    float: right;
+    /* float: right; */
     color: #191826;
 }
 .right-footer i:hover{
