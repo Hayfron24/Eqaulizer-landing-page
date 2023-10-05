@@ -417,14 +417,14 @@ body {
         line-height: 1.5rem;
     }
     .pattern{
-        left: 4rem;
+        left: 2.5rem;
     }
     
     .feature{
         width: 209px;
         height: 440px;
         position: relative;
-        left: 6rem;
+        left: 4rem;
         bottom: 34rem;
     }
     .premium-feature{
